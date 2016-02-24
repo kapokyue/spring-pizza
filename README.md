@@ -1,7 +1,7 @@
 # Spring Pizza
 This is a Pizza shop implemented using [Spring](https://spring.io/). UI framework using [Bootstrap](http://getbootstrap.com/).
 
-!(index preview)[/img/index.png]
+!(index preview)[img/index.png]
 
 # Setup
 1. Just clone the source
