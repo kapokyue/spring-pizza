@@ -3,12 +3,15 @@ This is a Pizza shop implemented using [Spring](https://spring.io/). UI framewor
 
 ![Index preview](img/index.png)
 
+# Requirement
+JDK 8
+
 # Setup
 1. Just clone the source
 
 2. Import the shop.sql to relational database(mysql, postgresql, etc...) *(Use phpMyAdmin or whatever you like)*
 
-3. Set the required environment variable: DB_URL, DB_USERNAME, DB_PASSWORD
+3. Set the required environment variable: DB_URL, DB_USERNAME, DB_PASSWORD, etc... (See: [Properties file](src/main/resources/application.properties)
 
 ```
 export DB_URL=jdbc:mysql://localhost:3306/pizza

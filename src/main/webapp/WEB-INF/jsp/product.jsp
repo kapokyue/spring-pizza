@@ -43,7 +43,7 @@
 
   <form:form id="delete-form" method="delete"/>
   <form:form id="cartAdd-form" method="post" action="/cart">
-    <input type="hidden" id="cartAdd-form-input">
+    <input type="hidden" name="productId" id="cartAdd-form-input">
   </form:form>
   <script>
     function deleteAction( action ) {
@@ -54,7 +54,6 @@
     function cartAdd( $productId ) {
       var postForm = document.getElementById( 'cartAdd-form' ),
           input    = document.getElementById( 'cartAdd-form-input' );
-      input.name = 'productId';
       input.value = $productId;
       postForm.submit();
     }

@@ -58,8 +58,7 @@
             <hr>
             <p>Total Price: $<span id="total"></span></p><br/>
             <script>
-              var $charge = jQuery( '#charge' ),
-                  $chargeView = jQuery( '#total' ),
+              var $chargeView = jQuery( '#total' ),
                   $qtyInput = jQuery( '.qty-input' ),
                   updatePrice = function () {
                     var charge = 0;
@@ -68,7 +67,6 @@
                           qty   = parseInt( this.value );
                       charge += price * qty;
                     } );
-                    $charge.val( charge );
                     $chargeView.html( charge );
                   };
               updatePrice();
